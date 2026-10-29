@@ -1,0 +1,2 @@
+# PDB coordinates use fixed-width columns; preserve original padded input records.
+*.pdb whitespace=-blank-at-eol

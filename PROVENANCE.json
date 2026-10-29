@@ -1,0 +1,377 @@
+[
+  {
+    "source": "toy_two_channel/per_qonly_wsm/s0/committor/__init__.py",
+    "destination": "examples/toy/committor/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "toy_two_channel/per_qonly_wsm/s0/committor/batched_propagator.py",
+    "destination": "examples/toy/committor/batched_propagator.py",
+    "source_sha256": "5f631a3bfadc657d8d4f57510ef4981c8da0ae14e10338dc3365193a1aea86e5",
+    "release_sha256": "5f631a3bfadc657d8d4f57510ef4981c8da0ae14e10338dc3365193a1aea86e5"
+  },
+  {
+    "source": "toy_two_channel/per_qonly_wsm/s0/committor/config.py",
+    "destination": "examples/toy/committor/config.py",
+    "source_sha256": "c80ed5b32d70b1ece0a27f7a06f30c60c970b6d3aca20b40c273a2400d1d4741",
+    "release_sha256": "3a5102eddf46e6b5e2a8508bda60598a32a5417797d18cb791ae640b335a9e04"
+  },
+  {
+    "source": "toy_two_channel/per_qonly_wsm/s0/committor/driver.py",
+    "destination": "examples/toy/committor/driver.py",
+    "source_sha256": "92c6354ce05fc306bf8ed3b043656ae905dcf6308f3e03965fd08b2a1eba6885",
+    "release_sha256": "92c6354ce05fc306bf8ed3b043656ae905dcf6308f3e03965fd08b2a1eba6885"
+  },
+  {
+    "source": "toy_two_channel/per_qonly_wsm/s0/committor/network.py",
+    "destination": "examples/toy/committor/network.py",
+    "source_sha256": "8c7af45b8a68ea082df9acfa406bf68a7921bc59b4f8c7aafe3d3aeb005c6d85",
+    "release_sha256": "8c7af45b8a68ea082df9acfa406bf68a7921bc59b4f8c7aafe3d3aeb005c6d85"
+  },
+  {
+    "source": "toy_two_channel/per_qonly_wsm/s0/committor/predict.py",
+    "destination": "examples/toy/committor/predict.py",
+    "source_sha256": "1abbcf19fab3ebf3f1958a32e8bddad3e6383cc02accaa91f4e496e58bf42a3c",
+    "release_sha256": "1abbcf19fab3ebf3f1958a32e8bddad3e6383cc02accaa91f4e496e58bf42a3c"
+  },
+  {
+    "source": "toy_two_channel/per_qonly_wsm/s0/committor/train.py",
+    "destination": "examples/toy/committor/train.py",
+    "source_sha256": "73bfd26963e86307170c01749a068e8acff6ab6cef98b83b1f15376b33372f48",
+    "release_sha256": "73bfd26963e86307170c01749a068e8acff6ab6cef98b83b1f15376b33372f48"
+  },
+  {
+    "source": "toy_two_channel/per_qonly_wsm/s0/committor/validation.py",
+    "destination": "examples/toy/committor/validation.py",
+    "source_sha256": "58519b11b9339c2da4703bfdee02fa8b2ef35e27b0997a53ffb72d4c7c7a23bd",
+    "release_sha256": "58519b11b9339c2da4703bfdee02fa8b2ef35e27b0997a53ffb72d4c7c7a23bd"
+  },
+  {
+    "source": "toy_two_channel/per_qonly_wsm/s0/sim_AB/west.cfg",
+    "destination": "examples/toy/sim_AB/west.cfg",
+    "source_sha256": "320cf0575e179558b95762555f1717cb54c6f824803687342c70979e4b1321db",
+    "release_sha256": "320cf0575e179558b95762555f1717cb54c6f824803687342c70979e4b1321db"
+  },
+  {
+    "source": "toy_two_channel/per_qonly_wsm/s0/sim_AB/tstate.file",
+    "destination": "examples/toy/sim_AB/tstate.file",
+    "source_sha256": "fede0b18c451ea10d0b9da9d9ea4e1e48f9ae09c4075f3b75873c5be985ac2ad",
+    "release_sha256": "fede0b18c451ea10d0b9da9d9ea4e1e48f9ae09c4075f3b75873c5be985ac2ad"
+  },
+  {
+    "source": "toy_two_channel/per_qonly_wsm/s0/sim_BA/west.cfg",
+    "destination": "examples/toy/sim_BA/west.cfg",
+    "source_sha256": "18516dbf895064a41b6a770f9aad9fc0d47b73d9f07661e24dac14426783e80c",
+    "release_sha256": "18516dbf895064a41b6a770f9aad9fc0d47b73d9f07661e24dac14426783e80c"
+  },
+  {
+    "source": "toy_two_channel/per_qonly_wsm/s0/sim_BA/tstate.file",
+    "destination": "examples/toy/sim_BA/tstate.file",
+    "source_sha256": "b3b56760c1c87653555e61bffbc3f7e514b8fac46710ce39005f48c571d3d1f7",
+    "release_sha256": "b3b56760c1c87653555e61bffbc3f7e514b8fac46710ce39005f48c571d3d1f7"
+  },
+  {
+    "source": "toy_two_channel/common_files/__init__.py",
+    "destination": "examples/toy/common_files/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "toy_two_channel/common_files/potential.py",
+    "destination": "examples/toy/common_files/potential.py",
+    "source_sha256": "14da23bfe7f6e4ad04c31d9ad9f7b37247b628c53fcd90f0671cc02950b7057a",
+    "release_sha256": "14da23bfe7f6e4ad04c31d9ad9f7b37247b628c53fcd90f0671cc02950b7057a"
+  },
+  {
+    "source": "toy_two_channel/common_files/make_bstates.py",
+    "destination": "examples/toy/common_files/make_bstates.py",
+    "source_sha256": "d92101b24213d8d5ef7f64fabde1aa725755f87597edd0acf12f4c7ac0d027d1",
+    "release_sha256": "d92101b24213d8d5ef7f64fabde1aa725755f87597edd0acf12f4c7ac0d027d1"
+  },
+  {
+    "source": "toy_two_channel/common_files/viz.py",
+    "destination": "examples/toy/common_files/viz.py",
+    "source_sha256": "8480047c4c46c1c959c94139c8ab705984fa21d5df6aee060796b40f456c18ff",
+    "release_sha256": "8480047c4c46c1c959c94139c8ab705984fa21d5df6aee060796b40f456c18ff"
+  },
+  {
+    "source": "toy_two_channel/common_files/solve_true_committor.py",
+    "destination": "examples/toy/common_files/solve_true_committor.py",
+    "source_sha256": "c80adc444101e9c2a4ce48576b249bd4a0abe7fcaaa140646a89ee5c612ee2cf",
+    "release_sha256": "c80adc444101e9c2a4ce48576b249bd4a0abe7fcaaa140646a89ee5c612ee2cf"
+  },
+  {
+    "source": "toy_two_channel/common_files/make_val_seeds.py",
+    "destination": "examples/toy/common_files/make_val_seeds.py",
+    "source_sha256": "69e142be452f4a0f28a9228011d55299d1b12a341335ad67bbfbbafd3df10705",
+    "release_sha256": "69e142be452f4a0f28a9228011d55299d1b12a341335ad67bbfbbafd3df10705"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/committor/__init__.py",
+    "destination": "examples/adp/committor/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/committor/config.py",
+    "destination": "examples/adp/committor/config.py",
+    "source_sha256": "97a41dc58af4ad06b7ff894c36d83178cd9a4ffa40c7c82ffebad3ab96a8c843",
+    "release_sha256": "d94dfdec01c884f075001c7631b8f2ef3dffb92b692b30efc4a7a9d548fd8fac"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/committor/driver.py",
+    "destination": "examples/adp/committor/driver.py",
+    "source_sha256": "1f39eb80801609816ebb19cad65aa318c1847b70810259fb9c47d3547e31f105",
+    "release_sha256": "1f39eb80801609816ebb19cad65aa318c1847b70810259fb9c47d3547e31f105"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/committor/system.py",
+    "destination": "examples/adp/committor/system.py",
+    "source_sha256": "c35abee52233f8dd8117026a2f5ad7a0bded0518bcbc750593e3f118e7b9820a",
+    "release_sha256": "c35abee52233f8dd8117026a2f5ad7a0bded0518bcbc750593e3f118e7b9820a"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/committor/train.py",
+    "destination": "examples/adp/committor/train.py",
+    "source_sha256": "dae0a29a861023d337999b7ab5aac14d744916a955193f30ddc1110018e1cfff",
+    "release_sha256": "6eada6fe9b62e659f878947da63cdc54fdcb44a5cd8fb363cc33ae408f32eeec"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/committor/we_driver.py",
+    "destination": "examples/adp/committor/we_driver.py",
+    "source_sha256": "600fb8b752eb1487f041bd787f2be08c9c4819dec270c4ba17dc2f20ec74beb7",
+    "release_sha256": "600fb8b752eb1487f041bd787f2be08c9c4819dec270c4ba17dc2f20ec74beb7"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/committor/batched_propagator.py",
+    "destination": "examples/adp/committor/batched_propagator.py",
+    "source_sha256": "8affd88dc6c8bf591ccfcaa3c61bdb1687914b39152216cfa677ac27c6e0d8b4",
+    "release_sha256": "e7bc9d20ca5251dabc5c8f4ffb36b29ad68d34ea4f36c4fd57ee76748fb4cc08"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/committor/network.py",
+    "destination": "examples/adp/committor/network.py",
+    "source_sha256": "b5d52cdcdfe35e757565ddf9573a897f3a18d2026364fc7f75ddda47b029a154",
+    "change": "retain only the selected residual network",
+    "release_sha256": "58ba161550eb891f13f318f650d6edbde8359bfc35e6802b3e3944e8f0868f10"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/sim_AB/west.cfg",
+    "destination": "examples/adp/sim_AB/west.cfg",
+    "source_sha256": "9861ec31ff72c2e18838043397a91509023db1001a899c4fb384c51a0ac2881e",
+    "release_sha256": "9861ec31ff72c2e18838043397a91509023db1001a899c4fb384c51a0ac2881e"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/sim_AB/tstate.file",
+    "destination": "examples/adp/sim_AB/tstate.file",
+    "source_sha256": "5e0c17c08e0c0eefcc789676f4e2ced9bc8127629f8aa5cd4cda74018cd40cde",
+    "release_sha256": "5e0c17c08e0c0eefcc789676f4e2ced9bc8127629f8aa5cd4cda74018cd40cde"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/sim_BA/west.cfg",
+    "destination": "examples/adp/sim_BA/west.cfg",
+    "source_sha256": "f7ff96a384b7bb3de340aa51e49cb236a6c6958166b8d55e17c61291db79c1ba",
+    "release_sha256": "f7ff96a384b7bb3de340aa51e49cb236a6c6958166b8d55e17c61291db79c1ba"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/sim_BA/tstate.file",
+    "destination": "examples/adp/sim_BA/tstate.file",
+    "source_sha256": "4d7faa9a4f25713a31f9490e254bb436fe4179b6730eee0b06e80824d12c825e",
+    "release_sha256": "4d7faa9a4f25713a31f9490e254bb436fe4179b6730eee0b06e80824d12c825e"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/common_files/start_state.pdb",
+    "destination": "examples/adp/common_files/start_state.pdb",
+    "source_sha256": "cd2e20f34919f01e3438b3e0460e4f76ef9ca3e65e4cb42cbe709a2822cb0155",
+    "release_sha256": "cd2e20f34919f01e3438b3e0460e4f76ef9ca3e65e4cb42cbe709a2822cb0155"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/common_files/C7ax_ref.pdb",
+    "destination": "examples/adp/common_files/C7ax_ref.pdb",
+    "source_sha256": "f7a4c7743cfa4051965db459014a67befcfcc388a163475307737d2f715bf11b",
+    "release_sha256": "f7a4c7743cfa4051965db459014a67befcfcc388a163475307737d2f715bf11b"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/common_files/C7eq_ref.pdb",
+    "destination": "examples/adp/common_files/C7eq_ref.pdb",
+    "source_sha256": "2bb859e6498a2d4e6917709c605339fb6d0fd743eef51035dd2c216e1b38e1ee",
+    "release_sha256": "2bb859e6498a2d4e6917709c605339fb6d0fd743eef51035dd2c216e1b38e1ee"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/sim_AB/bstates/boundary_A_0.xml",
+    "destination": "examples/adp/assets/A.xml.gz",
+    "source_sha256": "dcced44ac9892f138886707c716d4bc087df5c32dc775c841bbbcb03eb0d21e2",
+    "release_sha256": "2e9e1ef3b852c659f026c5920f41c163ab7f77d476d0729192db3c593ef88a23"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/sim_BA/bstates/boundary_B_0.xml",
+    "destination": "examples/adp/assets/B.xml.gz",
+    "source_sha256": "e286ec4c632754927bcb8e4c6e87404ab59ead41ff70084a97d1909846611fb1",
+    "release_sha256": "22ca81b3ed40609db7e4df3412f7f5b7798ae980c2a806a15a49c0d909356222"
+  },
+  {
+    "source": "we_chig_lazzeri_frequent_callplots_s4_20260923/committor/__init__.py",
+    "destination": "examples/chignolin/committor/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "we_chig_lazzeri_frequent_callplots_s4_20260923/committor/config.py",
+    "destination": "examples/chignolin/committor/config.py",
+    "source_sha256": "d4ed3d6d62eeedae5587e3e8ab6674616062733231a4916c8c037f28a47f7249",
+    "release_sha256": "bb435a46bd1c98e82694fd7dd3cb47f0e383c06cac0b0c7ef5e650f720d9c076"
+  },
+  {
+    "source": "we_chig_lazzeri_frequent_callplots_s4_20260923/committor/driver.py",
+    "destination": "examples/chignolin/committor/driver.py",
+    "source_sha256": "1f39eb80801609816ebb19cad65aa318c1847b70810259fb9c47d3547e31f105",
+    "release_sha256": "1f39eb80801609816ebb19cad65aa318c1847b70810259fb9c47d3547e31f105"
+  },
+  {
+    "source": "we_chig_lazzeri_frequent_callplots_s4_20260923/committor/system.py",
+    "destination": "examples/chignolin/committor/system.py",
+    "source_sha256": "c35abee52233f8dd8117026a2f5ad7a0bded0518bcbc750593e3f118e7b9820a",
+    "release_sha256": "c35abee52233f8dd8117026a2f5ad7a0bded0518bcbc750593e3f118e7b9820a"
+  },
+  {
+    "source": "we_chig_lazzeri_frequent_callplots_s4_20260923/committor/train.py",
+    "destination": "examples/chignolin/committor/train.py",
+    "source_sha256": "14b3eda6aa7d043763eadae9a4bcecec0206b3b32ee5097c5f6f53434dbd4d5f",
+    "release_sha256": "c08bbb88871ebad8b08c272ecd74aa6e5de26b1bfbb59c9ada39c4c26ce08ad0"
+  },
+  {
+    "source": "we_chig_lazzeri_frequent_callplots_s4_20260923/committor/we_driver.py",
+    "destination": "examples/chignolin/committor/we_driver.py",
+    "source_sha256": "600fb8b752eb1487f041bd787f2be08c9c4819dec270c4ba17dc2f20ec74beb7",
+    "release_sha256": "600fb8b752eb1487f041bd787f2be08c9c4819dec270c4ba17dc2f20ec74beb7"
+  },
+  {
+    "source": "we_chig_lazzeri_frequent_callplots_s4_20260923/committor/batched_propagator.py",
+    "destination": "examples/chignolin/committor/batched_propagator.py",
+    "source_sha256": "2d169bcab56bcfaaa87f8f9d35644429bc262b6d284fdceb93325180ca87bbc6",
+    "release_sha256": "ebb3a7362f86637e5e2ad4c1a837536ca3be679f9393941edd317c58ba340ec1"
+  },
+  {
+    "source": "we_chig_lazzeri_frequent_callplots_s4_20260923/committor/lazzeri_cv.py",
+    "destination": "examples/chignolin/committor/lazzeri_cv.py",
+    "source_sha256": "d9e83d7bfe15b7cc4e60c04776febb4b513b31084695c4a635e32e976b8ee16e",
+    "release_sha256": "d9e83d7bfe15b7cc4e60c04776febb4b513b31084695c4a635e32e976b8ee16e"
+  },
+  {
+    "source": "we_chig_lazzeri_frequent_callplots_s4_20260923/committor/simulation_time.py",
+    "destination": "examples/chignolin/committor/simulation_time.py",
+    "source_sha256": "cfe93cc1c7a49b3f25f8fec9538a0561d3b364dcbe7bcc93908c173031fa4969",
+    "release_sha256": "ab768b7ee14b5757292f37e81d685aecc166cbcd3330e6b02b9972c577e5a091"
+  },
+  {
+    "source": "we_chig_lazzeri_frequent_callplots_s4_20260923/committor/network.py",
+    "destination": "examples/chignolin/committor/network.py",
+    "source_sha256": "8f4638bbdc1aa04ab4de9addf2bc49c67aaa816024e12d370d2f1a7107ff0e35",
+    "change": "retain only the selected residual network",
+    "release_sha256": "adfb7bdaec0783b13112e45e1a56b77270cdc9ee7c9056220752ba211905fd59"
+  },
+  {
+    "source": "we_chig_lazzeri_frequent_callplots_s4_20260923/sim_AB/west.cfg",
+    "destination": "examples/chignolin/sim_AB/west.cfg",
+    "source_sha256": "a5e6e4162b081e3e36172544e9833fc3348d8b40b710ab14997a0073fb21890f",
+    "release_sha256": "75aff0bd11bafceccd32db1b13bfe1a51c32091e862930a18c178f90dafdd298"
+  },
+  {
+    "source": "we_chig_lazzeri_frequent_callplots_s4_20260923/sim_AB/tstate.file",
+    "destination": "examples/chignolin/sim_AB/tstate.file",
+    "source_sha256": "50a6db6cd4074704c09a7b8df9d6229486253b2b8d484b039d313699e7cc8481",
+    "release_sha256": "50a6db6cd4074704c09a7b8df9d6229486253b2b8d484b039d313699e7cc8481"
+  },
+  {
+    "source": "we_chig_lazzeri_frequent_callplots_s4_20260923/sim_BA/west.cfg",
+    "destination": "examples/chignolin/sim_BA/west.cfg",
+    "source_sha256": "5644f885266b8ca11c7adcd7183308eb89f289416aeec789509df41304d8e807",
+    "release_sha256": "19852360fd708e086b7e7d76a295e0916b415d6ecf461dc246903ea9e19e4d29"
+  },
+  {
+    "source": "we_chig_lazzeri_frequent_callplots_s4_20260923/sim_BA/tstate.file",
+    "destination": "examples/chignolin/sim_BA/tstate.file",
+    "source_sha256": "72709b0b25f7165370830e62a763795629635b09619f68d41a6e3bc8c87e92fb",
+    "release_sha256": "72709b0b25f7165370830e62a763795629635b09619f68d41a6e3bc8c87e92fb"
+  },
+  {
+    "source": "chig_lazzeri_q/common_files/lazzeri/generated/peptide.pdb",
+    "destination": "examples/chignolin/common_files/lazzeri/generated/peptide.pdb",
+    "source_sha256": "274fb8fed3f1c02dcf1b4cfaeb42168ee4043cd738b714dbaaa750f221408dfb",
+    "release_sha256": "274fb8fed3f1c02dcf1b4cfaeb42168ee4043cd738b714dbaaa750f221408dfb"
+  },
+  {
+    "source": "chig_lazzeri_q/common_files/lazzeri/generated/peptide_indices.npy",
+    "destination": "examples/chignolin/common_files/lazzeri/generated/peptide_indices.npy",
+    "source_sha256": "2f5a459370eeff53175024591577bdc849b93705d5c1f8d202a1b360c202dba5",
+    "release_sha256": "2f5a459370eeff53175024591577bdc849b93705d5c1f8d202a1b360c202dba5"
+  },
+  {
+    "source": "chig_lazzeri_q/common_files/lazzeri/generated/protein_bonds.npy",
+    "destination": "examples/chignolin/common_files/lazzeri/generated/protein_bonds.npy",
+    "source_sha256": "56ec80803455d26a9df42c8036fa81ed465a25a841995bc12e2894883a883323",
+    "release_sha256": "56ec80803455d26a9df42c8036fa81ed465a25a841995bc12e2894883a883323"
+  },
+  {
+    "source": "chig_lazzeri_q/common_files/lazzeri/generated/chignolin_feature_stats.pt",
+    "destination": "examples/chignolin/common_files/lazzeri/generated/chignolin_feature_stats.pt",
+    "source_sha256": "c5484a67af274b220667d12aca3e681ab45017ccb8cc6095705339a26378577f",
+    "release_sha256": "c5484a67af274b220667d12aca3e681ab45017ccb8cc6095705339a26378577f"
+  },
+  {
+    "source": "chig_lazzeri_q/common_files/lazzeri/source/inA.py",
+    "destination": "examples/chignolin/common_files/lazzeri/source/inA.py",
+    "source_sha256": "dc998ff21350d359b11e1ca70bb8ab75b1e8b6286ba705ddc2c18a11a4ffd0aa",
+    "release_sha256": "dc998ff21350d359b11e1ca70bb8ab75b1e8b6286ba705ddc2c18a11a4ffd0aa"
+  },
+  {
+    "source": "chig_lazzeri_q/common_files/lazzeri/source/inB.py",
+    "destination": "examples/chignolin/common_files/lazzeri/source/inB.py",
+    "source_sha256": "2ba234bbf3a99c0664713b441001f45a85922461429389cd4d1a2f7cb561f059",
+    "release_sha256": "2ba234bbf3a99c0664713b441001f45a85922461429389cd4d1a2f7cb561f059"
+  },
+  {
+    "source": "chig_lazzeri_q/common_files/lazzeri/source/signature.npy",
+    "destination": "examples/chignolin/common_files/lazzeri/source/signature.npy",
+    "source_sha256": "d88eae6bb2f9dcce60c9706a5a8b93cfa8ae903896ad9a2cedc69e060af7ad8b",
+    "release_sha256": "d88eae6bb2f9dcce60c9706a5a8b93cfa8ae903896ad9a2cedc69e060af7ad8b"
+  },
+  {
+    "source": "chig_lazzeri_q/common_files/lazzeri/source/r0.npy",
+    "destination": "examples/chignolin/common_files/lazzeri/source/r0.npy",
+    "source_sha256": "2a3b8275262ef86da878d181714ddacca3b221cc2808ab26ead152e96021f64b",
+    "release_sha256": "2a3b8275262ef86da878d181714ddacca3b221cc2808ab26ead152e96021f64b"
+  },
+  {
+    "source": "chig_lazzeri_q/common_files/lazzeri/source/mol.pdb",
+    "destination": "examples/chignolin/common_files/lazzeri/source/mol.pdb",
+    "source_sha256": "274fb8fed3f1c02dcf1b4cfaeb42168ee4043cd738b714dbaaa750f221408dfb",
+    "release_sha256": "274fb8fed3f1c02dcf1b4cfaeb42168ee4043cd738b714dbaaa750f221408dfb"
+  },
+  {
+    "source": "chig_lazzeri_q/common_files/lazzeri/generated/bstates_A/lazzeri_A_0000.xml",
+    "destination": "examples/chignolin/assets/A.xml.gz",
+    "source_sha256": "f5626866ffb8ecf1a0f7d0f5bbac94d8f7b8232c5cb305a700e952c6832c8dcc",
+    "release_sha256": "69eecf1ad440b78be0952c414b3559c0bb12eb9f2cd9ced48a4717c6aa643159"
+  },
+  {
+    "source": "chig_lazzeri_q/common_files/lazzeri/generated/bstates_B/lazzeri_B_0000.xml",
+    "destination": "examples/chignolin/assets/B.xml.gz",
+    "source_sha256": "31c31ee7a1f2c3f70b7599e8c685a0dfbba14948636101da05d369d7dd6700d7",
+    "release_sha256": "eed08fb02dd8d77d20ce0afec14e3651b45e4321c484f6ac67f37de263ef7d05"
+  },
+  {
+    "source": "chig_lazzeri_q/common_files/lazzeri/generated/system.xml",
+    "destination": "examples/chignolin/assets/system.xml.gz",
+    "source_sha256": "c6ed888dfa57c261274b044ad5022368e3eb4f6920594acd1bd0081c3de3d6cc",
+    "release_sha256": "2589d7219bfd384bdb0297dba8958b8ced42f21db1ddceea4971d385fed9de2b"
+  },
+  {
+    "source": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0/common_files/topol_vacuum.top",
+    "destination": "examples/adp/assets/system.xml.gz",
+    "source_sha256": "619890e7d90b0bd644b82cbc49e905f3666547db768c2f2f237513a05b0718b0",
+    "change": "OpenMM 8.4 GromacsTopFile with CHARMM27 parameters from GROMACS 2019.3; createSystem(NoCutoff, HBonds), serialize and losslessly gzip",
+    "release_sha256": "e3d6f57cacecc970c661772885134de05049768518d0546c68b14fa08ae28479"
+  }
+]
