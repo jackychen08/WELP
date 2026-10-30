@@ -37,3 +37,25 @@ The smoke preset deliberately shortens segments and training. It validates the
 closed loop and portability, not scientific convergence, rate estimates, full
 manuscript reproduction, GPU behavior, or long-run restart behavior. The optional
 large toy reference-grid calculation was not part of these checks.
+
+## Paper Chignolin addition
+
+The archived `C_both` preset (`chignolin_paper`) passed a separate clean-environment
+CPU smoke run with its original ten-iteration warmup/cadence retained:
+
+- 16 completed WE iterations in each direction, conserved probability weights,
+  finite coordinates, finite checkpoint tensors and finite training losses.
+- Three training calls and three finite Hill-rate evaluations from the original
+  frozen boundary ensembles/fluxes; nine finite loss records.
+- Two checkpoint reloads in each directional simulation; final training progress
+  covered both complete simulation budgets.
+- Twelve additional source checks: unchanged training function, target/collection
+  functions, loss and rate estimator, drivers, logit mapper, basin definition,
+  residual network, and production configuration fields (except logging name).
+  The combined source audit now contains 53 passing checks.
+
+The added example includes one full-solvent start per basin, rather than the
+original 100 starts. Rate-evaluation ensembles are preserved in full. The result
+validates the paper method implementation and estimator, not convergence to the
+published curves. The other three examples were not rerun for this addition;
+their prior isolated-environment results above remain applicable.

@@ -373,5 +373,149 @@
     "source_sha256": "619890e7d90b0bd644b82cbc49e905f3666547db768c2f2f237513a05b0718b0",
     "change": "OpenMM 8.4 GromacsTopFile with CHARMM27 parameters from GROMACS 2019.3; createSystem(NoCutoff, HBonds), serialize and losslessly gzip",
     "release_sha256": "e3d6f57cacecc970c661772885134de05049768518d0546c68b14fa08ae28479"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/committor/__init__.py",
+    "destination": "examples/chignolin_paper/committor/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/committor/config.py",
+    "destination": "examples/chignolin_paper/committor/config.py",
+    "source_sha256": "9ea68baf949f6f26bc7fa0f161edeba3693fad6fe684f56a28e13fec1971eec8",
+    "release_sha256": "ef50cd607c37a7a67fa8e8402be4f8dff8f70cb3f24b02ccb7f518d4aa5d30c3"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/committor/driver.py",
+    "destination": "examples/chignolin_paper/committor/driver.py",
+    "source_sha256": "1f39eb80801609816ebb19cad65aa318c1847b70810259fb9c47d3547e31f105",
+    "release_sha256": "1f39eb80801609816ebb19cad65aa318c1847b70810259fb9c47d3547e31f105"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/committor/system.py",
+    "destination": "examples/chignolin_paper/committor/system.py",
+    "source_sha256": "c35abee52233f8dd8117026a2f5ad7a0bded0518bcbc750593e3f118e7b9820a",
+    "release_sha256": "c35abee52233f8dd8117026a2f5ad7a0bded0518bcbc750593e3f118e7b9820a"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/committor/train.py",
+    "destination": "examples/chignolin_paper/committor/train.py",
+    "source_sha256": "f2d889e0dd3408b758d88ed3a90114e720dd9fe46ed8c516be58830838b4143f",
+    "release_sha256": "4947c4308d670191f667a8f0a15ee72c7e7f777264218459ededac7b912fea75"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/committor/we_driver.py",
+    "destination": "examples/chignolin_paper/committor/we_driver.py",
+    "source_sha256": "600fb8b752eb1487f041bd787f2be08c9c4819dec270c4ba17dc2f20ec74beb7",
+    "release_sha256": "600fb8b752eb1487f041bd787f2be08c9c4819dec270c4ba17dc2f20ec74beb7"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/committor/batched_propagator.py",
+    "destination": "examples/chignolin_paper/committor/batched_propagator.py",
+    "source_sha256": "f1847445ba2f5be1d8b2be33ecdbf8fdf1a3eebbca072bbeb4f926935c0a65d5",
+    "release_sha256": "4c348ffbe41b3083e1cc38441cf8c495fa3e4d71d2f356bf40d667b64da81561"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/committor/chignolin_cv.py",
+    "destination": "examples/chignolin_paper/committor/chignolin_cv.py",
+    "source_sha256": "801cfa621c8768cb0bdc31b7950e82bc2b477bf7524547b7f457a4dca7ab45e0",
+    "release_sha256": "801cfa621c8768cb0bdc31b7950e82bc2b477bf7524547b7f457a4dca7ab45e0"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/committor/logit_mab.py",
+    "destination": "examples/chignolin_paper/committor/logit_mab.py",
+    "source_sha256": "106b66870fae5c16bdfb6922005159b14c8f1318d5689f895cc606c8cee0e7bb",
+    "release_sha256": "106b66870fae5c16bdfb6922005159b14c8f1318d5689f895cc606c8cee0e7bb"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/committor/network.py",
+    "destination": "examples/chignolin_paper/committor/network.py",
+    "source_sha256": "fd482dfb71724ea29fa78fa1df229bf878b3a70cc14c9b34de42130e4f5ebcf5",
+    "release_sha256": "0f27e89d054bc2294cce01b78650ba97ffbe410dbfcc93cc4703d72c47a81835"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/sim_AB/west.cfg",
+    "destination": "examples/chignolin_paper/sim_AB/west.cfg",
+    "source_sha256": "626bffd58abdc24fb7db8b0f87f4550af425a57763d13b575e596f0133633800",
+    "release_sha256": "626bffd58abdc24fb7db8b0f87f4550af425a57763d13b575e596f0133633800"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/sim_AB/tstate.file",
+    "destination": "examples/chignolin_paper/sim_AB/tstate.file",
+    "source_sha256": "edc1c901e5bfb092abad53f27467fc97388945d82b08be86ae9e8dd532ad1005",
+    "release_sha256": "edc1c901e5bfb092abad53f27467fc97388945d82b08be86ae9e8dd532ad1005"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/sim_AB/bstates/chig_A_0000.xml",
+    "destination": "examples/chignolin_paper/assets/A.xml.gz",
+    "source_sha256": "3bfe651d2503c89cc1883f0bb6e3a495c2960d6186f3e0a0a38ea246fa401d63",
+    "release_sha256": "a60b36b4748d25f44f407384736dbf5795c7f26b354ae8a87b2a9bc5d782a683"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/sim_BA/west.cfg",
+    "destination": "examples/chignolin_paper/sim_BA/west.cfg",
+    "source_sha256": "62d4809eab3272e58c5494951530593db8c475e70565b604fe908d30a0add55d",
+    "release_sha256": "62d4809eab3272e58c5494951530593db8c475e70565b604fe908d30a0add55d"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/sim_BA/tstate.file",
+    "destination": "examples/chignolin_paper/sim_BA/tstate.file",
+    "source_sha256": "7b5bf0408a92254e9f07b9517d1736dcf1d1c6168f0b0611c1729de37a8d25d9",
+    "release_sha256": "7b5bf0408a92254e9f07b9517d1736dcf1d1c6168f0b0611c1729de37a8d25d9"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/sim_BA/bstates/chig_B_0000.xml",
+    "destination": "examples/chignolin_paper/assets/B.xml.gz",
+    "source_sha256": "58e6249f82976368c0d6608ceec68c211db88a13ac8038b7a59bf4bdbb34525c",
+    "release_sha256": "5abe2aac118988fb10f147689eacac4edaa65fc6d7c99b11c4e48e16355411b6"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/common_files/peptide.pdb",
+    "destination": "examples/chignolin_paper/common_files/peptide.pdb",
+    "source_sha256": "4962242fef54f258fc262ba944ae54598e8c526a7af588400c0e78fab28d1ba1",
+    "release_sha256": "4962242fef54f258fc262ba944ae54598e8c526a7af588400c0e78fab28d1ba1"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/common_files/peptide_indices.npy",
+    "destination": "examples/chignolin_paper/common_files/peptide_indices.npy",
+    "source_sha256": "2f5a459370eeff53175024591577bdc849b93705d5c1f8d202a1b360c202dba5",
+    "release_sha256": "2f5a459370eeff53175024591577bdc849b93705d5c1f8d202a1b360c202dba5"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/common_files/chignolin_feature_stats.pt",
+    "destination": "examples/chignolin_paper/common_files/chignolin_feature_stats.pt",
+    "source_sha256": "ab0b450a51e72d453914b515e73d825cf8805596b5596183f143fa3e416b1647",
+    "release_sha256": "ab0b450a51e72d453914b515e73d825cf8805596b5596183f143fa3e416b1647"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/common_files/rate_ref/A_boundary_confs.npy",
+    "destination": "examples/chignolin_paper/common_files/rate_ref/A_boundary_confs.npy",
+    "source_sha256": "3de52deaf00668c1f2acb826d25b6ab9987c6deae2c2f3f2f7b9df0037e6d698",
+    "release_sha256": "3de52deaf00668c1f2acb826d25b6ab9987c6deae2c2f3f2f7b9df0037e6d698"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/common_files/rate_ref/B_boundary_confs.npy",
+    "destination": "examples/chignolin_paper/common_files/rate_ref/B_boundary_confs.npy",
+    "source_sha256": "605452e6e50cd2b478fb622a2eb5ad6270efbaf2408e6e16d431192d6c1c3951",
+    "release_sha256": "605452e6e50cd2b478fb622a2eb5ad6270efbaf2408e6e16d431192d6c1c3951"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/common_files/rate_ref/A_flux.npy",
+    "destination": "examples/chignolin_paper/common_files/rate_ref/A_flux.npy",
+    "source_sha256": "9f0ee633ed86721e2bac3f19d024ca952200add736fb4227383ca021d34ce7da",
+    "release_sha256": "9f0ee633ed86721e2bac3f19d024ca952200add736fb4227383ca021d34ce7da"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/common_files/rate_ref/B_flux.npy",
+    "destination": "examples/chignolin_paper/common_files/rate_ref/B_flux.npy",
+    "source_sha256": "62fba673f9e16ba39a1340a4c3fffa75755a8f7b0665be0c33741f2ead772864",
+    "release_sha256": "62fba673f9e16ba39a1340a4c3fffa75755a8f7b0665be0c33741f2ead772864"
+  },
+  {
+    "source": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0/common_files/system.xml",
+    "destination": "examples/chignolin_paper/assets/system.xml.gz",
+    "source_sha256": "79fa18e9f7765292a399ffb5f3550b833d775d52ad7b34d3834c524fc7e944e4",
+    "release_sha256": "eda1dc75bcc20d8838169c19738e7fc7c05ddb6a2e8e3234be3263465236c0cb"
   }
 ]

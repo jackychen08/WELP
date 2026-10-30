@@ -134,7 +134,7 @@ def main():
         raise SystemExit(128 + signum)
     signal.signal(signal.SIGTERM, terminate)
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('example', choices=['toy','adp','chignolin'])
+    parser.add_argument('example', choices=['toy','adp','chignolin','chignolin_paper'])
     parser.add_argument('--workdir', type=Path, required=True, help='new directory; never overwritten')
     parser.add_argument('--smoke', action='store_true', help='small pipeline check, not a scientific run')
     parser.add_argument('--iterations', type=int, help='override the production WE budget')
@@ -145,7 +145,7 @@ def main():
     if args.timeout <= 0:
         parser.error('--timeout must be positive')
     work = args.workdir.resolve()
-    iterations = args.iterations if args.iterations is not None else (6 if args.smoke else None)
+    iterations = args.iterations if args.iterations is not None else ((16 if args.example == "chignolin_paper" else 6) if args.smoke else None)
     env = prepare(args.example, work, args.smoke, iterations)
     run(work, env, args.timeout)
 

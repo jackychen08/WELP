@@ -2,25 +2,60 @@
 
 Compact, runnable examples of committor learning coupled to two steady-state
 WESTPA simulations. A learned committor supplies the adaptive binning coordinate;
-weighted-ensemble samples supply parent–children training data. Both directions
-use q-only MAB binning and within-bin merge/re-split.
+weighted-ensemble samples supply parent–children training data. Both directions use within-bin merge/re-split. The current examples use q-only
+MAB; `chignolin_paper` preserves the paper’s logit MAB and static boundary bins.
 
 The molecular examples are extracted from the latest production WELP lineage
 identified in the source workspace on October 29, 2026:
 
 | Example | Source preset | Physical system |
 | --- | --- | --- |
+| `chignolin_paper` | Archived `chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0` (`C_both`) | Paper Chignolin: solvated AMBER99SB/TIP3P, H-bond-sum basins, 340 K, friction 1/ps, 2 fs steps |
 | `toy` | `toy_two_channel/per_qonly_wsm/s0` | ZJZ two-channel potential, overdamped dynamics |
 | `adp` | `adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0` (August 31 preset) | 22-atom alanine dipeptide in vacuum, CHARMM27, 310 K, friction 0.3/ps, 1 fs steps, 100 steps/segment |
 | `chignolin` | `we_chig_lazzeri_frequent_callplots_s4_20260923` | 6,468-atom solvated CHARMM27 system, 166 protein atoms, 340 K, friction 0.3/ps, 0.5 fs steps, 4,000 steps/segment |
 
-Chignolin uses the **current native-contact definition**: 74 contacts, folded A
+The newer `chignolin` example uses the **current native-contact definition**: 74 contacts, folded A
 at structural Q >= 0.99, unfolded B at Q <= 0.01, with periodic distances computed
 before whole-protein unwrapping for the neural network. It does not use the older
 H-bond-sum/AMBER99SB example. Its physical inputs were shared with a SOC benchmark,
 but the sampler, trainer and inference loop here are WELP; no SOC optimizer is
 included. The October toy `semigroup_study` is a greedy-baseline study, not a newer
 WELP implementation.
+
+## Chignolin version used in the paper
+
+Use **`chignolin_paper`** for the method behind the Chignolin panels currently
+embedded in `WE_Comittor_short/figures/figure2_adp_convergence.pdf`.
+`make_updated_paper_figures.py` reads `chig__C_both__s{0,1,2}.csv`;
+`adp_seed_sweep/granttail_rate_extract.py` maps `C_both` to
+`chig_qlogit_wsm_staticbins_grantloss_noper_nobke`. The archived seed-0 source,
+not the newer Lazzeri/native-contact-Q implementation, supplies this preset.
+
+This version retains logit MAB in the interior, fixed log-decade boundary bins,
+WSM, `grant_loss=True`, `per_alpha=0`, `bke_loss_weight=0`, a 65,000-entry replay
+buffer, warmup 10, training interval 10 combined iterations, and 120 epochs.
+Its H-bond-sum basins are A < 1.75 nm and B > 3.0 nm. Segments contain 1,000
+2-fs steps. The original rate-evaluation function, both frozen peptide boundary
+ensembles, fluxes, and feature statistics are retained.
+
+```bash
+python run.py chignolin_paper --workdir /tmp/welp-chignolin-paper --smoke
+OPENMM_PLATFORM=CUDA python run.py chignolin_paper --workdir runs/chignolin-paper
+```
+
+The paper smoke run uses **16 iterations per direction** so the original warmup
+and training interval can exercise network feedback. Other examples use six.
+As with the other compact molecular examples, only one full-solvent starting
+state per basin is included. This matches the method configuration and rate
+estimator, but does not reproduce the original 100-state initialization or the
+three-seed figure numerically. The complete frozen peptide ensembles used by
+the rate estimator are included; those differ from the full-solvent WE starts.
+
+The `adp` preset matches the frequent q+WSM underdamped appendix curve. This
+release still does not include the main overdamped-ADP preset or the historical
+toy preset used in the paper’s accuracy/channel panels; the `toy` example is a
+newer q-only/WSM variant. Do not treat all examples as figure reproductions.
 
 ## Install
 
@@ -93,7 +128,7 @@ Outputs include:
 
 ## What was kept and reduced
 
-The latest molecular loss, replay, target-network and residual-network behavior is
+For `adp` and the newer `chignolin`, the latest loss, replay, target-network and residual-network behavior is
 retained. ADP and Chignolin both use warmup 1, training interval 1 (combined new
 iterations), and maximum-ahead 1. ADP retains its full-batch preset and 100 epochs;
 Chignolin retains batch size 1,024 and 120 epochs. They retain PER, semigroup and
@@ -103,8 +138,8 @@ training interval. The source configs are authoritative; these are not simplifie
 semigroup-only presets.
 
 To keep the release small, each molecular example contains **one** full-system
-starting state per basin, rather than the full boundary ensemble. Chignolin retains
-the original fixed feature-normalization statistics. System/state XML is compressed
+starting state per basin, rather than the full boundary ensemble. Both Chignolin presets retain
+their original fixed feature-normalization statistics. System/state XML is compressed
 without numerical conversion. Unused network architectures, cluster scripts, seed
 copies, trajectories, trained models, external test sets, rate-reference ensembles
 and large diagnostic suites are omitted. The small input states and normalization
@@ -119,7 +154,7 @@ is intentionally not included.
 
 These are standalone demonstrations of the current methods, **not reproduction
 of all manuscript figures**: reduced starting ensembles change initial sampling;
-optional accuracy/rate diagnostics are absent; only bounded CPU smoke behavior is
+full-study diagnostics are omitted (the paper Chignolin rate estimator is retained); only bounded CPU smoke behavior is
 validated here. Production convergence and GPU performance are not established by
 those checks.
 
@@ -130,7 +165,7 @@ python tests/smoke.py --workdir /tmp/welp-validation
 python tools/verify_run.py /tmp/welp-adp
 ```
 
-The suite runs all three systems from fresh directories and checks completed
+The suite runs all four presets from fresh directories and checks completed
 iterations in both directions, conserved probability weights, finite coordinates
 and losses, checkpoint contents, network reloads, and final training progress.
 See [VALIDATION.md](VALIDATION.md) for the recorded results.

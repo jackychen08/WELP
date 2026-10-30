@@ -3,7 +3,8 @@
   "sources": {
     "adp": "adp_seed_sweep/und_qonly_wsm_greedylike_a4500/s0",
     "chignolin": "we_chig_lazzeri_frequent_callplots_s4_20260923",
-    "toy": "toy_two_channel/per_qonly_wsm/s0"
+    "toy": "toy_two_channel/per_qonly_wsm/s0",
+    "chignolin_paper": "archive/chignolin_inactive_20260915/chig_seed_sweep/chig_qlogit_wsm_staticbins_grantloss_noper_nobke/s0"
   },
   "checks": [
     "adp: unchanged bke_weight_for_iter",
@@ -46,7 +47,19 @@
     "toy: unchanged ToyXYNet",
     "adp: train() unchanged except removed optional projection/rate logging",
     "chignolin: train() unchanged except removed optional projection/rate logging",
-    "Chignolin Sep 20 and Sep 23 method files are identical"
+    "Chignolin Sep 20 and Sep 23 method files are identical",
+    "chignolin_paper: unchanged train",
+    "chignolin_paper: unchanged compute_targets",
+    "chignolin_paper: unchanged collect_training_data",
+    "chignolin_paper: unchanged collect_nstep_data",
+    "chignolin_paper: unchanged log_loss_per_sample",
+    "chignolin_paper: unchanged estimate_rate",
+    "chignolin_paper: unchanged driver.py",
+    "chignolin_paper: unchanged we_driver.py",
+    "chignolin_paper: unchanged logit_mab.py",
+    "chignolin_paper: unchanged chignolin_cv.py",
+    "chignolin_paper: unchanged ChignolinPredictNetResidual",
+    "chignolin_paper: all production config fields unchanged except logging name"
   ],
-  "passed": 41
+  "passed": 53
 }

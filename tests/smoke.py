@@ -12,7 +12,7 @@ args = parser.parse_args()
 root = args.workdir.resolve()
 root.mkdir(parents=True, exist_ok=False)
 reports = []
-for example in ('toy', 'adp', 'chignolin'):
+for example in ('toy', 'adp', 'chignolin', 'chignolin_paper'):
     work = root/example
     subprocess.run([sys.executable, str(REPO/'run.py'), example, '--workdir', str(work),
                     '--smoke', '--timeout', '900'], check=True)

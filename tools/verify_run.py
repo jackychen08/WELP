@@ -47,6 +47,13 @@ def verify(work):
     losses=re.findall(r'(?:avg_loss=|\[train step \d+\] loss=)([-+\w.]+)',log)
     assert len(losses)>=2 and np.isfinite([float(x) for x in losses]).all(), 'missing/nonfinite losses'
     report['finite_loss_records']=len(losses)
+    if settings['example'] == 'chignolin_paper':
+        assert '[rate] failed:' not in log, 'paper rate estimator failed'
+        rates = re.findall(r'k_AB=([0-9.eE+-]+)/ns.*?k_BA=([0-9.eE+-]+)/ns', log)
+        assert len(rates) >= 2, 'missing paper rate evaluations'
+        values = np.asarray(rates, dtype=float)
+        assert np.isfinite(values).all() and (values >= 0).all(), 'invalid paper rates'
+        report['finite_rate_evaluations'] = len(rates)
     return report
 
 

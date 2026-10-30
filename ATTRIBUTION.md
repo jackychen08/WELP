@@ -35,3 +35,14 @@ No project-wide license has been assigned in this initial publication. Public
 availability alone is not an additional license for redistribution; third-party
 terms continue to apply. A project license can be added once the applicable
 ownership and adapted-source terms are reconciled.
+
+## Paper Chignolin preset
+
+`chignolin_paper` comes from the archived `C_both` WELP run family, moved into
+`archive/chignolin_inactive_20260915` without deleting outputs. Its system was
+prepared from PDB 2RVD with OpenMM AMBER99SB/TIP3P, explicit solvent, and hydrogen
+bond constraints. Its basin definitions use four peptide H-bond distances, not
+the later SOC-shared native-contact assets. The residual network, logit mapper,
+Grant-style loss, and frozen Hill-rate estimator retain the source implementation.
+The two peptide boundary ensembles and measured fluxes are carried with their
+original values; no trained network or production trajectory is included.
