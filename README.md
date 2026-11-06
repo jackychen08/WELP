@@ -57,6 +57,17 @@ release still does not include the main overdamped-ADP preset or the historical
 toy preset used in the paper’s accuracy/channel panels; the `toy` example is a
 newer q-only/WSM variant. Do not treat all examples as figure reproductions.
 
+## Empirical ADP committor benchmark
+
+The [ADP benchmark release](https://github.com/jackychen08/WELP/releases/tag/adp-committor-v1)
+provides the full empirical committor dataset and its balanced evaluation subset,
+including atomic coordinates, labels, confidence intervals, and trial counts.
+Download instructions, the data schema, simulation settings, and validation
+results are in [datasets/adp_committor/README.md](datasets/adp_committor/README.md).
+The data are distributed as release assets so cloning the code remains small.
+The benchmark labels use 300 K dynamics and the rectangular basin definitions
+documented there; the runnable `adp` example has its own simulation settings.
+
 ## Install
 
 Tested with Python 3.11.5 on Linux. A CPU installation is sufficient for the smoke
@@ -141,9 +152,11 @@ To keep the release small, each molecular example contains **one** full-system
 starting state per basin, rather than the full boundary ensemble. Both Chignolin presets retain
 their original fixed feature-normalization statistics. System/state XML is compressed
 without numerical conversion. Unused network architectures, cluster scripts, seed
-copies, trajectories, trained models, external test sets, rate-reference ensembles
+copies, trajectories, trained models, rate-reference ensembles
 and large diagnostic suites are omitted. The small input states and normalization
 statistics are required runtime assets, not learned checkpoints.
+The empirical ADP benchmark is available separately through the release linked
+above and is not bundled into each runnable example.
 
 The compact launcher/coordinator is shared across examples. It waits for completed
 WE iterations, publishes progress atomically, flushes final training, and stops on

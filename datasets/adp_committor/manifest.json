@@ -1,0 +1,223 @@
+{
+  "title": "Empirical alanine-dipeptide committor benchmark",
+  "version": "1",
+  "release": "https://github.com/jackychen08/WELP/releases/tag/adp-committor-v1",
+  "archive": {
+    "filename": "adp-committor-benchmark-v1.tar.gz",
+    "bytes": 107020464,
+    "sha256": "3df45ad6bdb07bf2cfb32b658686f63ca08abab26562332151e08b672522e273",
+    "url": "https://github.com/jackychen08/WELP/releases/download/adp-committor-v1/adp-committor-benchmark-v1.tar.gz"
+  },
+  "datasets": {
+    "full": {
+      "conformers": 368617,
+      "tensor_schema": {
+        "positions": {
+          "shape": [
+            368617,
+            66
+          ],
+          "dtype": "float32"
+        },
+        "phi": {
+          "shape": [
+            368617
+          ],
+          "dtype": "float32"
+        },
+        "psi": {
+          "shape": [
+            368617
+          ],
+          "dtype": "float32"
+        },
+        "empirical_committor": {
+          "shape": [
+            368617
+          ],
+          "dtype": "float32"
+        },
+        "ci_lower": {
+          "shape": [
+            368617
+          ],
+          "dtype": "float32"
+        },
+        "ci_upper": {
+          "shape": [
+            368617
+          ],
+          "dtype": "float32"
+        }
+      },
+      "csv_columns": [
+        "idx",
+        "phi_deg",
+        "psi_deg",
+        "predicted_committor",
+        "empirical_committor",
+        "ci_lower",
+        "ci_upper",
+        "n_A",
+        "n_B",
+        "n_unresolved",
+        "bin_idx",
+        "result_file"
+      ],
+      "trials_per_conformer": [
+        1000
+      ],
+      "total_trials": 368617000,
+      "unresolved_trials": 0,
+      "committor_min": 0.0,
+      "committor_max": 1.0,
+      "committor_histogram_20_bins": [
+        217763,
+        10194,
+        5073,
+        3774,
+        3228,
+        2819,
+        2780,
+        2726,
+        2819,
+        3000,
+        3115,
+        3299,
+        3392,
+        3263,
+        3554,
+        3953,
+        4938,
+        7188,
+        11599,
+        70140
+      ]
+    },
+    "balanced": {
+      "conformers": 54520,
+      "tensor_schema": {
+        "positions": {
+          "shape": [
+            54520,
+            66
+          ],
+          "dtype": "float32"
+        },
+        "phi": {
+          "shape": [
+            54520
+          ],
+          "dtype": "float32"
+        },
+        "psi": {
+          "shape": [
+            54520
+          ],
+          "dtype": "float32"
+        },
+        "empirical_committor": {
+          "shape": [
+            54520
+          ],
+          "dtype": "float32"
+        },
+        "ci_lower": {
+          "shape": [
+            54520
+          ],
+          "dtype": "float32"
+        },
+        "ci_upper": {
+          "shape": [
+            54520
+          ],
+          "dtype": "float32"
+        }
+      },
+      "csv_columns": [
+        "idx",
+        "phi_deg",
+        "psi_deg",
+        "predicted_committor",
+        "empirical_committor",
+        "ci_lower",
+        "ci_upper",
+        "n_A",
+        "n_B",
+        "n_unresolved",
+        "bin_idx",
+        "result_file"
+      ],
+      "trials_per_conformer": [
+        1000
+      ],
+      "total_trials": 54520000,
+      "unresolved_trials": 0,
+      "committor_min": 0.0,
+      "committor_max": 1.0,
+      "committor_histogram_20_bins": [
+        2726,
+        2726,
+        2726,
+        2726,
+        2726,
+        2726,
+        2726,
+        2726,
+        2726,
+        2726,
+        2726,
+        2726,
+        2726,
+        2726,
+        2726,
+        2726,
+        2726,
+        2726,
+        2726,
+        2726
+      ]
+    }
+  },
+  "balanced_selection": {
+    "bins": 20,
+    "bin_width": 0.05,
+    "seed": 0,
+    "per_bin": 2726
+  },
+  "files": {
+    "adp_committor_test_set.pt": {
+      "bytes": 104690185,
+      "sha256": "f72812df73f7f7d5c341b5ea855a106ce1aa481e48c150f929bc5fbd88e3cd39",
+      "change": "Byte-identical copy."
+    },
+    "adp_committor_dataset.csv": {
+      "bytes": 35525058,
+      "sha256": "78b63b3007bed6169c8add30c84ff6f10bb7f8beacea748f5a3cc29714c21666",
+      "change": "Byte-identical copy."
+    },
+    "adp_committor_test_set_balanced.pt": {
+      "bytes": 15486773,
+      "sha256": "5e4b8dc76cac22c4ed6b58f1b5c796a82ce70648499aee330d532cc932b31bbb",
+      "change": "Byte-identical copy."
+    },
+    "adp_committor_dataset_balanced.csv": {
+      "bytes": 5249726,
+      "sha256": "fbf998caa896f8d5594d2cc0d7f2449c234d30780eb9a53d5d8a08e99b5a7d1a",
+      "change": "Byte-identical copy."
+    },
+    "adp_tps_snap.pdb": {
+      "bytes": 2334,
+      "sha256": "0206a5d597982efa4147fc4c31492dc5ee852bd552dc6768cf1af13d56091e5f",
+      "change": "Byte-identical copy."
+    },
+    "topol_vacuum_clean.top": {
+      "bytes": 6486,
+      "sha256": "a781a68a72f398c6bd0a0dade9555e873538f86b24f23063ab768a101d8019b5",
+      "change": "Machine-specific header comments replaced by attribution; molecular parameters unchanged."
+    }
+  },
+  "validation": "All coordinates, angles, committors and confidence intervals finite; labels and Wilson intervals agree with counts; CSV and tensor rows agree; balanced rows exactly match the full dataset and seeded selection.",
+  "archive_validation": "All archive members re-read and matched to SHA-256 checksums after compression."
+}
